@@ -1,7 +1,7 @@
 import dataclasses
 import inspect
 from contextlib import contextmanager
-from copy import cpy, deepcopy
+from copy import copy, deepcopy
 from typing import (
     Any,
     Callable,
